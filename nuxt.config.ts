@@ -6,9 +6,6 @@ const config: NuxtConfig = {
     host: '0.0.0.0',
     timing: false
   },
-  serverMiddleware: [
-    '~/api/index'
-  ],
   buildModules: [
     '@nuxt/typescript-build'
   ]
